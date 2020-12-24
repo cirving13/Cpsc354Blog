@@ -5,3 +5,4 @@
 [Lambda Calculus](https://github.com/cirving13/cpsc354blog/blob/main/lambdaCalculus.md)  
 [Partial Functions](https://github.com/cirving13/cpsc354blog/blob/main/partialFunctions.md)  
 [Lean](https://github.com/cirving13/cpsc354blog/blob/main/lean.md)  
+[Knuth-Bendix](https://github.com/cirving13/cpsc354blog/blob/main/Knuth-Bendix.md)  
