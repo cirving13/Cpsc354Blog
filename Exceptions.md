@@ -11,15 +11,15 @@ This gets an IO action, in this case being some handler function, and produces s
 `catch ioAction exceptionHandler`  
 
 A full example of how catching an error would be written is shown here,  
-`import Control.Exception  
-data myError = Error deriving Show
-instance Exception myError
-failing :: IO ()
-failing = do
-  throw Error
-main :: IO ()
-main = do
-  catch failing (\e :: myError) -> do
-  putStrLn "Something is broken"`
+``import Control.Exception  
+data myError = Error deriving Show  
+instance Exception myError  
+failing :: IO ()  
+failing = do  
+  throw Error  
+main :: IO ()  
+main = do  
+  catch failing (\e :: myError) -> do  
+  putStrLn "Something is broken"``
   
 To read more about exceptions, as well as built in exceptions in the Control.Exceptions package, visit [here](https://hackage.haskell.org/package/base-4.12.0.0/docs/Control-Exception.html) or [here](https://wiki.haskell.org/Handling_errors_in_Haskell)
