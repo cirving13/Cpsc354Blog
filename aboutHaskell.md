@@ -4,7 +4,7 @@ Haskell is a statically typed, general purpose, purely functional programming la
 
 Statically Typed
 ================
-A language is statically typed if the type of the variable is defined at compile time, as opposed to run time. This checks variables at compile time and will not compile a program if there is an error within it involving variables
+A language is statically typed if the type of the variable is defined at compile time, as opposed to run time. This checks variables at compile time and will not compile a program if there is an error within it involving variables. 
 
 General Purpose
 ===============
@@ -12,7 +12,7 @@ A language that is described as "General Purpose" is a language that can be used
 
 Purely Functional
 =================
-A purely functional programming language is one that has a designated style of building elements of the programs. This treats all computation done by a program similar to a mathematical function 
+A purely functional programming language is one that has a designated style of building elements of the programs. This treats all computation done by a program similar to a mathematical function. This is why Haskell has no assignment, and instead has `=` read as an equality symbol. 
 
 Type Inference
 ==============
@@ -20,4 +20,4 @@ Type Inference is the ability of a language to automatically detect the type of 
 
 Lazy Evaluation
 ===============
-Lazy Evaluation does not compute or evaluate an expression until it is called. This allows values to only be created when they are called upon, saving memory and reducing runtime. This also allows the ability to use structures as abstractions instead of primitives, as well as have a more straightforward implementation of certain algorithms. The disadvantages to lazy evaluation include being difficult to implement features such as exception handling, and can cause memory leaks and cause additional issues in your code because of it. 
+Lazy Evaluation does not compute or evaluate an expression until it is called. This allows values to only be created when they are called upon, saving memory and reducing runtime. This also allows the ability to use structures as abstractions instead of primitives, as well as have a more straightforward implementation of certain algorithms. The disadvantages to lazy evaluation include being difficult to implement features such as exception handling, and can cause memory leaks and cause additional issues in your code because of it. Most of the time, a program that has Lazy evaluation, is also statically typed. These two build off of eachother and many properties of a statically typed language overlap with one with lazy evaluation. This was actually created for Lambda calculus, which is discussed [here](https://github.com/cirving13/cpsc354blog/edit/main/lambdaCalculus.md) 
