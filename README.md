@@ -3,6 +3,8 @@
 [About Haskell](https://github.com/cirving13/cpsc354blog/blob/main/aboutHaskell.md)  
 [Recursion](https://github.com/cirving13/cpsc354blog/blob/main/recursion.md)  
 [Lambda Calculus](https://github.com/cirving13/cpsc354blog/blob/main/lambdaCalculus.md)  
+[Modules](https://github.com/cirving13/cpsc354blog/blob/main/Modules.md)  
+[Exceptions](https://github.com/cirving13/cpsc354blog/blob/main/Exceptions.md)  
 [Partial Functions](https://github.com/cirving13/cpsc354blog/blob/main/partialFunctions.md)  
 [Lean](https://github.com/cirving13/cpsc354blog/blob/main/lean.md)  
 [Knuth-Bendix](https://github.com/cirving13/cpsc354blog/blob/main/Knuth-Bendix.md)  
