@@ -19,12 +19,14 @@ Lean is equipped with different modes to aid in different aspects of the program
 Tactic Mode
 -----------
 Anywhere were an expression is expected, lean will accept a sequence of instructions between a `begin` and an `end`. The sequence of inputs between the begin and end is known as a tactic and is usually separated by commas. Lean will execute the tactic expecting it to create an expression of the required type at the output. The results from these tactics are checked by the kernel, and there can be other tactics that are used to catch or handle these failed tactics. If the error is not handled, an error message will be provided to the user. Tactics will not succeed if they do not produce the required type that is needed for the function to run.  
+
 Calc mode
 ---------
 Calc mode is an environment that is used to complete calculations and write Calculational proofs. This is written as a chain of intermediate results that are composed together to form a larger proof. To enter calc mode, simply place `calc` before a line that you want computed in a calculation environment.  
+
 Conv mode 
 ---------
-While inside a tactic block, you can use the keyword `conv` to enter conversion mode. In conversion mode, you are able to travel inside the assumptions and goals of the tactics written.
+While inside a tactic block, you can use the keyword `conv` to enter conversion mode. In conversion mode, you are able to travel inside the assumptions and goals of the tactics written.  
 
 Simp tactic
 -----------
