@@ -27,3 +27,5 @@ While inside a tactic block, you can use the keyword `conv` to enter conversion 
 Simp tactic
 -----------
 Simp tactic stands for Simplifier tactic. This is ran as the last tactic in a sequence and is used to try and simplify your goal at the end of your tactic sequence. Simp is equipped with a list of lemmas that attempt to match subterms of the goal with left side rules and match them to right side rules. This set of lemmas will set out to try and prove your goal, you can also add to your simp lemmas to add extra lemmas to be used in your proving. 
+
+To read more about Lean and its uses, visit this [Manual](https://leanprover.github.io/reference/index.html), which covers most things that are in Lean
