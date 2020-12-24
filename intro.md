@@ -7,14 +7,14 @@ Before you can do any development with Haskell, you must install it, you can hea
 You are going to want to cd into the location in which you want these files to be installed, then download ghcup by running this command in the terminal:  
 `curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh`
  
-this installs ghcup onto the computer, as well as happy and alex, in the event it does not install the latter two programs, run these commands in your terminal  
+This installs ghcup onto the computer, as well as happy and alex, in the event it does not install the latter two programs, run these commands in your terminal  
 `cabal install happy`and  
 `cabal install alex`
  
-then you want to install bnfc. the way i did it was run the command  
+Then you want to install bnfc. the way i did it was run the command  
 `cabal install BNFC`
  
-but the commands:  
+But the commands:  
 `git clone https://github.com/BNFC/bnfc`  
 `brew install make`  
 Should work fine as well.
